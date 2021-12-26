@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <script defer src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <script defer src="create-objects-oop.js"></script>
+</head>
+
+<body>
+    <div class="body-container">
+        <div id="map"></div>
+        <div class="form-wrapper">
+            <h2 class="title">Note Progress</h2>
+            <form class="hide form">
+
+
+                <div class="division marginBottom">
+                    <label class="label" for="">Type</label>
+                    <select name="" class="selection size">
+                        <option value="running">walk</option>
+                        <option value="cycling">cycle</option>
+                    </select>
+                </div>
+                <div class="division marginBottom">
+                    <label class="label" for="">Distance</label>
+                    <input class="duration size" type="text" placeholder="min">
+                </div>
+
+
+
+                <div class="division">
+                    <label class="label" for="">Duration</label>
+                    <input class="distance size" type="text" placeholder="step/min ">
+                </div>
+
+                <div class="division">
+                    <label class="label" for="">Candence</label>
+                    <input class="running size" type="text" placeholder="k/m">
+                </div>
+
+                <div class="division">
+                    <label class="label hide" for="">Elev Gain</label>
+                    <input class="cycling hide size" type="text" placeholder="k/h">
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+            </form>
+
+            <div class="parent-box">
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <li data-id="">
+        <h2 class="workout-title"></h2>
+
+        <div class="workout-details">
+            <span class="workout-icon">icon</span>
+            <span class="workout-value"></span>
+            <span class="workout-unit">km</span>
+        </div>
+        <div class="workout-details">
+            <span class="workout-icon">icon</span>
+            <span class="workout-value"></span>
+            <span class="workout-unit">min</span>
+        </div>
+
+        <div class="workout-details">
+            <span class="workout-icon">icon</span>
+            <span class="workout-value"></span>
+            <span class="workout-unit">min/km</span>
+        </div>
+        <div class="workout-details">
+            <span class="workout-icon">icon</span>
+            <span class="workout-value"></span>
+            <span class="workout-unit">spm</span>
+        </div>
+
+    </li>
+
+
+    <li data-id="">
+        <h2 class="workout-title"></h2>
+        <div class="workout-details">
+            <span class="workout-icon">icon</span>
+            <span class="workout-value"></span>
+            <span class="workout-unit">km</span>
+        </div>
+        <div class="workout-details">
+            <span class="workout-icon">icon</span>
+            <span class="workout-value"></span>
+            <span class="workout-unit">min</span>
+        </div>
+
+        <div class="workout-details">
+            <span class="workout-icon">icon</span>
+            <span class="workout-value"></span>
+            <span class="workout-unit">km/h</span>
+        </div>
+        <div class="workout-details">
+            <span class="workout-icon">icon</span>
+            <span class="workout-value"></span>
+            <span class="workout-unit">m</span>
+        </div>
+
+    </li> -->
+</body>
+
+</html>
