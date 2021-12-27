@@ -19,9 +19,12 @@
 
 <body>
     <div class="body-container">
-        <div id="map"></div>
+        <div id="map">
+            <div class="loader"></div>
+        </div>
         <div class="form-wrapper">
             <h2 class="title">Note Progress</h2>
+            <p class="descript">click on the map to mark a place</p>
             <form class="hide form">
 
 
@@ -44,14 +47,14 @@
                     <input class="distance size" type="text" placeholder="step/min ">
                 </div>
 
-                <div class="division">
+                <div class="division runningdiv">
                     <label class="label" for="">Candence</label>
                     <input class="running size" type="text" placeholder="k/m">
                 </div>
 
-                <div class="division">
-                    <label class="label hide" for="">Elev Gain</label>
-                    <input class="cycling hide size" type="text" placeholder="k/h">
+                <div class="division cyclingdiv  hide">
+                    <label class="label " for="">Elev Gain</label>
+                    <input class="cycling  size" type="text" placeholder="k/h">
 
 
                 </div>
@@ -59,7 +62,7 @@
 
 
 
-
+                <button type="submit" class="d">submit</button>
 
 
 
@@ -73,59 +76,8 @@
 
     </div>
 
-    <!-- <li data-id="">
-        <h2 class="workout-title"></h2>
 
-        <div class="workout-details">
-            <span class="workout-icon">icon</span>
-            <span class="workout-value"></span>
-            <span class="workout-unit">km</span>
-        </div>
-        <div class="workout-details">
-            <span class="workout-icon">icon</span>
-            <span class="workout-value"></span>
-            <span class="workout-unit">min</span>
-        </div>
-
-        <div class="workout-details">
-            <span class="workout-icon">icon</span>
-            <span class="workout-value"></span>
-            <span class="workout-unit">min/km</span>
-        </div>
-        <div class="workout-details">
-            <span class="workout-icon">icon</span>
-            <span class="workout-value"></span>
-            <span class="workout-unit">spm</span>
-        </div>
-
-    </li>
-
-
-    <li data-id="">
-        <h2 class="workout-title"></h2>
-        <div class="workout-details">
-            <span class="workout-icon">icon</span>
-            <span class="workout-value"></span>
-            <span class="workout-unit">km</span>
-        </div>
-        <div class="workout-details">
-            <span class="workout-icon">icon</span>
-            <span class="workout-value"></span>
-            <span class="workout-unit">min</span>
-        </div>
-
-        <div class="workout-details">
-            <span class="workout-icon">icon</span>
-            <span class="workout-value"></span>
-            <span class="workout-unit">km/h</span>
-        </div>
-        <div class="workout-details">
-            <span class="workout-icon">icon</span>
-            <span class="workout-value"></span>
-            <span class="workout-unit">m</span>
-        </div>
-
-    </li> -->
+    <script src="https://kit.fontawesome.com/9fceb31bc9.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
